@@ -5,7 +5,7 @@ source ~/catkin_ws/devel/setup.bash
 
 roscore &
 echo "activate roscore"
-sleep 10s
+sleep 60s
 
 roslaunch alice_manager alice_manager_test.launch &
 echo "activate auto process"
